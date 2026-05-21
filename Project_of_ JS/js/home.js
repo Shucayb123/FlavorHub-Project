@@ -26,7 +26,7 @@ const getcat = async () => {
             />
             <div class="card-content">
               <h3>
-                <a href="/FlavorHub/meals.html?cat=${cat.strCategory}"> ${cat.strCategory} </a>
+                <a href="meals.html?cat=${cat.strCategory}"> ${cat.strCategory} </a>
               </h3>
               <p>
                 ${cat.strCategoryDescription.substring(1, 60)}

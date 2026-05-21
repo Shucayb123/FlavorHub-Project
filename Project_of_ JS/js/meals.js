@@ -28,7 +28,7 @@ const getcatmeals = async () => {
             />
             <div class="card-content">
               <h3>
-                <a href="/FlavorHub/meal.html?id=${meal.idMeal}"> ${meal.strMeal} </a>
+                <a href="meal.html?id=${meal.idMeal}"> ${meal.strMeal} </a>
               </h3>
             </div>
           </div>`;
